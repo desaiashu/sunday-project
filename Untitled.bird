@@ -42,6 +42,8 @@ sec main
   trk 1 Audio |wsd
     c 4:66 34:256 |mice
       'samples/Chicago sketch 10-Mini V3.wav'
+    c 42:345 8:192 |yhbb
+      samples/generated/lyria3-generate-a-trumpet-130-bpm-1789369554889-srppcmoe.mp3
     auto volume
       . 0:0 0:230 2:326 3:17 5:224 8:85 11:134 12:276 15:287 17:382 21:66 22:357 25:350 30:249 35:149
       _ 0.9976 0.5211 0.7211 0.0711 0.3711 0.4961 0.7211 0.2461 0.3211 0.9211 0.8211 0.3461 0.2461 0.4711 0.3461
