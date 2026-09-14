@@ -79,6 +79,22 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "wkyd": {
+      "nodeId": "wkyd",
+      "typeId": "plugin",
+      "position": [
+        729.8287963867188,
+        619.03125
+      ],
+      "refId": "tivraChorus",
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
     }
   },
   "connections": []
