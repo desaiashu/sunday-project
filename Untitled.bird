@@ -55,3 +55,17 @@ sec main
       . 16:166
       _ 0.8257
       ~ lin
+  trk 3 Pad |pad
+    c 1:0 32:0 |zuff
+      p w
+        v 78
+        n C#3 A2 F#2 G#2
+        .
+        v 78
+        n G#3 E3 C#3 D#3
+        .
+        v 78
+        n C4 A3 F#3 G#3
+        .
+        v 78
+        n E4 C#4 A3 C4

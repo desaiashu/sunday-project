@@ -39,7 +39,7 @@
       "type": "Midi",
       "notes": [
         {
-          "id": "nlqdhh",
+          "id": "nfluhc",
           "note": 53,
           "velocity": 100,
           "beat": 1.375,
@@ -47,7 +47,7 @@
           "channel": 0
         },
         {
-          "id": "nlqbpg",
+          "id": "nflstl",
           "note": 51,
           "velocity": 100,
           "beat": 2.875,
@@ -55,7 +55,7 @@
           "channel": 0
         },
         {
-          "id": "nlqadr",
+          "id": "nflstm",
           "note": 49,
           "velocity": 100,
           "beat": 3.5,
@@ -63,7 +63,7 @@
           "channel": 0
         },
         {
-          "id": "nlqadq",
+          "id": "nfmpkt",
           "note": 49,
           "velocity": 100,
           "beat": 4.5,
@@ -71,11 +71,1060 @@
           "channel": 0
         },
         {
-          "id": "nlqadp",
+          "id": "nfmpls",
           "note": 50,
           "velocity": 100,
           "beat": 5.25,
           "durationBeats": 0.125,
+          "channel": 0
+        }
+      ]
+    },
+    "araEnabled": false,
+    "araBypassed": false,
+    "gain": 1.0,
+    "fadeInBeats": 0.0,
+    "fadeOutBeats": 0.0,
+    "fadeCurve": 1.0,
+    "loopEnabled": false,
+    "reversed": false,
+    "swing": {
+      "amount": 0.0,
+      "mode": "eighth"
+    }
+  },
+  "zuff": {
+    "id": "zuff",
+    "trackId": "pad",
+    "name": "Pad - clip",
+    "startBeat": 4.0,
+    "lengthBeats": 128.0,
+    "offsetBeats": 0.0,
+    "source": {
+      "type": "Midi",
+      "notes": [
+        {
+          "id": "neruvn",
+          "note": 49,
+          "velocity": 78,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neruvg",
+          "note": 56,
+          "velocity": 78,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nertlx",
+          "note": 60,
+          "velocity": 78,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nertly",
+          "note": 64,
+          "velocity": 78,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nerryx",
+          "note": 45,
+          "velocity": 78,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nerrzg",
+          "note": 52,
+          "velocity": 78,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nerrzh",
+          "note": 57,
+          "velocity": 78,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nerrzi",
+          "note": 61,
+          "velocity": 78,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nerqkl",
+          "note": 42,
+          "velocity": 78,
+          "beat": 8.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesojw",
+          "note": 49,
+          "velocity": 78,
+          "beat": 8.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesojx",
+          "note": 54,
+          "velocity": 78,
+          "beat": 8.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesojy",
+          "note": 57,
+          "velocity": 78,
+          "beat": 8.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesmvb",
+          "note": 44,
+          "velocity": 78,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesmxg",
+          "note": 51,
+          "velocity": 78,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesmxh",
+          "note": 56,
+          "velocity": 78,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesmxi",
+          "note": 60,
+          "velocity": 78,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesljb",
+          "note": 49,
+          "velocity": 78,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesjwy",
+          "note": 56,
+          "velocity": 78,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesjwz",
+          "note": 60,
+          "velocity": 78,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesjxa",
+          "note": 64,
+          "velocity": 78,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesilf",
+          "note": 45,
+          "velocity": 78,
+          "beat": 20.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesilo",
+          "note": 52,
+          "velocity": 78,
+          "beat": 20.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesilp",
+          "note": 57,
+          "velocity": 78,
+          "beat": 20.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesilq",
+          "note": 61,
+          "velocity": 78,
+          "beat": 20.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesgpj",
+          "note": 42,
+          "velocity": 78,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesgpc",
+          "note": 49,
+          "velocity": 78,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesgpd",
+          "note": 54,
+          "velocity": 78,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesfbm",
+          "note": 57,
+          "velocity": 78,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesfbn",
+          "note": 44,
+          "velocity": 78,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesdqa",
+          "note": 51,
+          "velocity": 78,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesdqb",
+          "note": 56,
+          "velocity": 78,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesdqc",
+          "note": 60,
+          "velocity": 78,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netajf",
+          "note": 49,
+          "velocity": 78,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netaiy",
+          "note": 56,
+          "velocity": 78,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netaiz",
+          "note": 60,
+          "velocity": 78,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netaja",
+          "note": 64,
+          "velocity": 78,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesyxf",
+          "note": 45,
+          "velocity": 78,
+          "beat": 36.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesywy",
+          "note": 52,
+          "velocity": 78,
+          "beat": 36.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesywz",
+          "note": 57,
+          "velocity": 78,
+          "beat": 36.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesxko",
+          "note": 61,
+          "velocity": 78,
+          "beat": 36.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesvoh",
+          "note": 42,
+          "velocity": 78,
+          "beat": 40.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesvoa",
+          "note": 49,
+          "velocity": 78,
+          "beat": 40.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesvob",
+          "note": 54,
+          "velocity": 78,
+          "beat": 40.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesvoc",
+          "note": 57,
+          "velocity": 78,
+          "beat": 40.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesubr",
+          "note": 44,
+          "velocity": 78,
+          "beat": 44.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nestyi",
+          "note": 51,
+          "velocity": 78,
+          "beat": 44.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nestyj",
+          "note": 56,
+          "velocity": 78,
+          "beat": 44.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nestyk",
+          "note": 60,
+          "velocity": 78,
+          "beat": 44.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesskd",
+          "note": 49,
+          "velocity": 78,
+          "beat": 48.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nessjw",
+          "note": 56,
+          "velocity": 78,
+          "beat": 48.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nessjx",
+          "note": 60,
+          "velocity": 78,
+          "beat": 48.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nessjy",
+          "note": 64,
+          "velocity": 78,
+          "beat": 48.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesqvr",
+          "note": 45,
+          "velocity": 78,
+          "beat": 52.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesqwa",
+          "note": 52,
+          "velocity": 78,
+          "beat": 52.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesqwb",
+          "note": 57,
+          "velocity": 78,
+          "beat": 52.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesphe",
+          "note": 61,
+          "velocity": 78,
+          "beat": 52.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nesphf",
+          "note": 42,
+          "velocity": 78,
+          "beat": 56.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmjg",
+          "note": 49,
+          "velocity": 78,
+          "beat": 56.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmjh",
+          "note": 54,
+          "velocity": 78,
+          "beat": 56.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmji",
+          "note": 57,
+          "velocity": 78,
+          "beat": 56.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netkul",
+          "note": 44,
+          "velocity": 78,
+          "beat": 60.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netkue",
+          "note": 51,
+          "velocity": 78,
+          "beat": 60.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netkuf",
+          "note": 56,
+          "velocity": 78,
+          "beat": 60.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netkug",
+          "note": 60,
+          "velocity": 78,
+          "beat": 60.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netjhf",
+          "note": 49,
+          "velocity": 78,
+          "beat": 64.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netjgy",
+          "note": 56,
+          "velocity": 78,
+          "beat": 64.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nethsr",
+          "note": 60,
+          "velocity": 78,
+          "beat": 64.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nethss",
+          "note": 64,
+          "velocity": 78,
+          "beat": 64.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netgdf",
+          "note": 45,
+          "velocity": 78,
+          "beat": 68.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netgdo",
+          "note": 52,
+          "velocity": 78,
+          "beat": 68.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netgdp",
+          "note": 57,
+          "velocity": 78,
+          "beat": 68.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netgdq",
+          "note": 61,
+          "velocity": 78,
+          "beat": 68.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netfsh",
+          "note": 42,
+          "velocity": 78,
+          "beat": 72.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netfsa",
+          "note": 49,
+          "velocity": 78,
+          "beat": 72.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netfsb",
+          "note": 54,
+          "velocity": 78,
+          "beat": 72.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netfsc",
+          "note": 57,
+          "velocity": 78,
+          "beat": 72.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netefr",
+          "note": 44,
+          "velocity": 78,
+          "beat": 76.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netedo",
+          "note": 51,
+          "velocity": 78,
+          "beat": 76.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netedp",
+          "note": 56,
+          "velocity": 78,
+          "beat": 76.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netedq",
+          "note": 60,
+          "velocity": 78,
+          "beat": 76.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netcrv",
+          "note": 49,
+          "velocity": 78,
+          "beat": 80.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netcro",
+          "note": 56,
+          "velocity": 78,
+          "beat": 80.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netbav",
+          "note": 60,
+          "velocity": 78,
+          "beat": 80.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netbaw",
+          "note": 64,
+          "velocity": 78,
+          "beat": 80.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netxvf",
+          "note": 45,
+          "velocity": 78,
+          "beat": 84.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netxuy",
+          "note": 52,
+          "velocity": 78,
+          "beat": 84.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netxuz",
+          "note": 57,
+          "velocity": 78,
+          "beat": 84.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netxva",
+          "note": 61,
+          "velocity": 78,
+          "beat": 84.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netwhj",
+          "note": 42,
+          "velocity": 78,
+          "beat": 88.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netwhc",
+          "note": 49,
+          "velocity": 78,
+          "beat": 88.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netwhd",
+          "note": 54,
+          "velocity": 78,
+          "beat": 88.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netwhe",
+          "note": 57,
+          "velocity": 78,
+          "beat": 88.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netuzr",
+          "note": 44,
+          "velocity": 78,
+          "beat": 92.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netvaq",
+          "note": 51,
+          "velocity": 78,
+          "beat": 92.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netvar",
+          "note": 56,
+          "velocity": 78,
+          "beat": 92.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netvas",
+          "note": 60,
+          "velocity": 78,
+          "beat": 92.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nettnr",
+          "note": 49,
+          "velocity": 78,
+          "beat": 96.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "nettnk",
+          "note": 56,
+          "velocity": 78,
+          "beat": 96.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netrwr",
+          "note": 60,
+          "velocity": 78,
+          "beat": 96.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netrws",
+          "note": 64,
+          "velocity": 78,
+          "beat": 96.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netqjr",
+          "note": 45,
+          "velocity": 78,
+          "beat": 100.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netqka",
+          "note": 52,
+          "velocity": 78,
+          "beat": 100.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netqkb",
+          "note": 57,
+          "velocity": 78,
+          "beat": 100.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netqkc",
+          "note": 61,
+          "velocity": 78,
+          "beat": 100.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netoxr",
+          "note": 42,
+          "velocity": 78,
+          "beat": 104.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netoxk",
+          "note": 49,
+          "velocity": 78,
+          "beat": 104.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netoxl",
+          "note": 54,
+          "velocity": 78,
+          "beat": 104.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netoxm",
+          "note": 57,
+          "velocity": 78,
+          "beat": 104.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmwh",
+          "note": 44,
+          "velocity": 78,
+          "beat": 108.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmvk",
+          "note": 51,
+          "velocity": 78,
+          "beat": 108.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmvl",
+          "note": 56,
+          "velocity": 78,
+          "beat": 108.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "netmvm",
+          "note": 60,
+          "velocity": 78,
+          "beat": 108.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neujnj",
+          "note": 49,
+          "velocity": 78,
+          "beat": 112.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neujnc",
+          "note": 56,
+          "velocity": 78,
+          "beat": 112.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neujnd",
+          "note": 60,
+          "velocity": 78,
+          "beat": 112.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neuhyw",
+          "note": 64,
+          "velocity": 78,
+          "beat": 112.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neuhyx",
+          "note": 45,
+          "velocity": 78,
+          "beat": 116.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neugpg",
+          "note": 52,
+          "velocity": 78,
+          "beat": 116.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neugph",
+          "note": 57,
+          "velocity": 78,
+          "beat": 116.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neugpi",
+          "note": 61,
+          "velocity": 78,
+          "beat": 116.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neufbr",
+          "note": 42,
+          "velocity": 78,
+          "beat": 120.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neufbk",
+          "note": 49,
+          "velocity": 78,
+          "beat": 120.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neufbl",
+          "note": 54,
+          "velocity": 78,
+          "beat": 120.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neufbm",
+          "note": 57,
+          "velocity": 78,
+          "beat": 120.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neudrn",
+          "note": 44,
+          "velocity": 78,
+          "beat": 124.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neudrg",
+          "note": 51,
+          "velocity": 78,
+          "beat": 124.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neudrh",
+          "note": 56,
+          "velocity": 78,
+          "beat": 124.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "neudri",
+          "note": 60,
+          "velocity": 78,
+          "beat": 124.0,
+          "durationBeats": 4.0,
           "channel": 0
         }
       ]
