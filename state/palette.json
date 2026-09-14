@@ -95,6 +95,22 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "mvmg": {
+      "nodeId": "mvmg",
+      "typeId": "plugin",
+      "position": [
+        1024.078857421875,
+        619.03125
+      ],
+      "refId": "tivraTapeDelay",
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
     }
   },
   "connections": []
