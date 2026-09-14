@@ -1151,7 +1151,360 @@
     "offsetBeats": 0.0,
     "source": {
       "type": "Midi",
-      "notes": []
+      "notes": [
+        {
+          "id": "lyabdt",
+          "note": 51,
+          "velocity": 88,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzzrg",
+          "note": 54,
+          "velocity": 88,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzzrj",
+          "note": 57,
+          "velocity": 88,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzzri",
+          "note": 61,
+          "velocity": 88,
+          "beat": 0.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzycf",
+          "note": 44,
+          "velocity": 88,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzwse",
+          "note": 51,
+          "velocity": 88,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzwsh",
+          "note": 54,
+          "velocity": 88,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lxzwsg",
+          "note": 60,
+          "velocity": 88,
+          "beat": 4.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyatjx",
+          "note": 49,
+          "velocity": 84,
+          "beat": 8.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyatjw",
+          "note": 52,
+          "velocity": 84,
+          "beat": 8.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyatjz",
+          "note": 56,
+          "velocity": 84,
+          "beat": 8.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyarww",
+          "note": 59,
+          "velocity": 84,
+          "beat": 8.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaqnh",
+          "note": 49,
+          "velocity": 84,
+          "beat": 11.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaqng",
+          "note": 52,
+          "velocity": 84,
+          "beat": 11.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaqnj",
+          "note": 56,
+          "velocity": 84,
+          "beat": 11.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaqni",
+          "note": 61,
+          "velocity": 84,
+          "beat": 11.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaoiv",
+          "note": 51,
+          "velocity": 86,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaoiu",
+          "note": 57,
+          "velocity": 86,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaoix",
+          "note": 60,
+          "velocity": 86,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyanle",
+          "note": 66,
+          "velocity": 86,
+          "beat": 12.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyankz",
+          "note": 44,
+          "velocity": 86,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyalxg",
+          "note": 54,
+          "velocity": 86,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyalxj",
+          "note": 60,
+          "velocity": 86,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyalxi",
+          "note": 63,
+          "velocity": 86,
+          "beat": 16.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaklh",
+          "note": 49,
+          "velocity": 82,
+          "beat": 20.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaklg",
+          "note": 52,
+          "velocity": 82,
+          "beat": 20.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaklj",
+          "note": 56,
+          "velocity": 82,
+          "beat": 20.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyakli",
+          "note": 59,
+          "velocity": 82,
+          "beat": 20.0,
+          "durationBeats": 3.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaiuj",
+          "note": 49,
+          "velocity": 82,
+          "beat": 23.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaiui",
+          "note": 52,
+          "velocity": 82,
+          "beat": 23.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaiul",
+          "note": 59,
+          "velocity": 82,
+          "beat": 23.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lyaiuk",
+          "note": 63,
+          "velocity": 82,
+          "beat": 23.0,
+          "durationBeats": 1.0,
+          "channel": 0
+        },
+        {
+          "id": "lybfnx",
+          "note": 49,
+          "velocity": 92,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybebk",
+          "note": 56,
+          "velocity": 92,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybebn",
+          "note": 61,
+          "velocity": 92,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybebm",
+          "note": 64,
+          "velocity": 92,
+          "beat": 24.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybcjx",
+          "note": 51,
+          "velocity": 88,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybcjw",
+          "note": 54,
+          "velocity": 88,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybcjz",
+          "note": 57,
+          "velocity": 88,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybcjy",
+          "note": 61,
+          "velocity": 88,
+          "beat": 28.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybaxh",
+          "note": 44,
+          "velocity": 88,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybaxg",
+          "note": 51,
+          "velocity": 88,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lybaxj",
+          "note": 54,
+          "velocity": 88,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        },
+        {
+          "id": "lyazgo",
+          "note": 60,
+          "velocity": 88,
+          "beat": 32.0,
+          "durationBeats": 4.0,
+          "channel": 0
+        }
+      ]
     },
     "araEnabled": false,
     "araBypassed": false,
