@@ -9,6 +9,11 @@
       {
         "beat": 0.0,
         "value": 0.9976311326026917,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 2.4005652659180976,
+        "value": 0.5211277008056641,
         "interpolation": "linear"
       }
     ],
