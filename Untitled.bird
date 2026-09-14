@@ -38,9 +38,9 @@ sec main
     c 4:66 34:256 |mice
       'samples/Chicago sketch 10-Mini V3.wav'
     auto volume
-      . 0:0 0:230 2:326
-      _ 0.9976 0.5211 0.7211
-      ~ exp exp lin
+      . 0:0 0:230 2:326 3:17
+      _ 0.9976 0.5211 0.7211 0.0711
+      ~ exp exp exp lin
   trk 2 MIDI |tdh
     c 2:0 2:0 |rxyj
       p _q _x _s s _q _x _s s _xx s _xxd _s s _xx _s s _h _xx _s
