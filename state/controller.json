@@ -1,6 +1,27 @@
 {
-  "mappings": {},
-  "nextId": 0,
+  "mappings": {
+    "map_1": {
+      "id": "map_1",
+      "cc": {
+        "channel": 14,
+        "cc": 10,
+        "kind": "cc"
+      },
+      "device": "xone-k2",
+      "target": {
+        "kind": "transport",
+        "action": "togglePlay"
+      },
+      "min": 0.0,
+      "max": 1.0,
+      "scaling": "toggle",
+      "enabled": true,
+      "inverted": false,
+      "softTakeover": false,
+      "name": ""
+    }
+  },
+  "nextId": 1,
   "macros": {},
   "devices": {
     "iac-driver-bus-1": {
