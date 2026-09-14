@@ -16,6 +16,14 @@
           "beat": 1.375,
           "durationBeats": 0.125,
           "channel": 0
+        },
+        {
+          "id": "f3k3cm",
+          "note": 51,
+          "velocity": 100,
+          "beat": 2.875,
+          "durationBeats": 0.125,
+          "channel": 0
         }
       ]
     },

@@ -35,6 +35,6 @@ master
 sec main
   trk 2 MIDI |tdh
     c 2:0 2:0 |rxyj
-      p _q _x _s s _w _h _xx
+      p _q _x _s s _q _x _s s _w _q
         v 100
-        n F3
+        n F3 D#3
