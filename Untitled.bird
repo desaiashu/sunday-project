@@ -15,6 +15,11 @@ tracks
     plugin tivraWavetable
     fx tivraVibeFX
     strip tivraStrip
+  3 Pad |pad
+    type midi
+    plugin tivraWavetable
+    fx tivraHall
+    strip tivraStrip
 
 returns
   0 Hall |rii

@@ -1,15 +1,4 @@
 {
-  "nodes": {
-    "efqz": {
-      "id": "efqz",
-      "name": "visualizer[main]",
-      "kind": {
-        "type": "VisualizerSource",
-        "panelId": "main",
-        "kind": "lightcube",
-        "inputSource": "{\"kind\":\"main\"}"
-      }
-    }
-  },
+  "nodes": {},
   "edges": {}
 }

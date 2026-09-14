@@ -31,6 +31,16 @@
       "dubState": "empty",
       "audioTakeLaneCount": 0
     },
+    "pad": {
+      "id": "pad",
+      "name": "Pad",
+      "trackType": "midi",
+      "auditionLane": null,
+      "takeLaneCount": 0,
+      "audioFlipped": false,
+      "dubState": "empty",
+      "audioTakeLaneCount": 0
+    },
     "rii": {
       "id": "rii",
       "name": "Hall",
@@ -75,6 +85,7 @@
   "trackOrder": [
     "wsd",
     "tdh",
+    "pad",
     "rii",
     "rrv",
     "rac",

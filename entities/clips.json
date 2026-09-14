@@ -1,55 +1,19 @@
 {
-  "rxyj": {
-    "id": "rxyj",
-    "trackId": "tdh",
-    "name": "MIDI",
-    "startBeat": 8.0,
-    "lengthBeats": 8.0,
+  "mice": {
+    "id": "mice",
+    "trackId": "wsd",
+    "name": "Chicago sketch 10-Mini V3.wav",
+    "startBeat": 16.6875,
+    "lengthBeats": 138.66666666666666,
     "offsetBeats": 0.0,
     "source": {
-      "type": "Midi",
-      "notes": [
-        {
-          "id": "itvcgr",
-          "note": 53,
-          "velocity": 100,
-          "beat": 1.375,
-          "durationBeats": 0.125,
-          "channel": 0
-        },
-        {
-          "id": "f3k3cm",
-          "note": 51,
-          "velocity": 100,
-          "beat": 2.875,
-          "durationBeats": 0.125,
-          "channel": 0
-        },
-        {
-          "id": "yk8r4y",
-          "note": 49,
-          "velocity": 100,
-          "beat": 3.5,
-          "durationBeats": 0.125,
-          "channel": 0
-        },
-        {
-          "id": "jzzvij",
-          "note": 49,
-          "velocity": 100,
-          "beat": 4.5,
-          "durationBeats": 0.125,
-          "channel": 0
-        },
-        {
-          "id": "tv7r12",
-          "note": 50,
-          "velocity": 100,
-          "beat": 5.25,
-          "durationBeats": 0.125,
-          "channel": 0
-        }
-      ]
+      "type": "Audio",
+      "path": "samples/Chicago sketch 10-Mini V3.wav",
+      "sampleRate": 48000.0,
+      "channels": 2,
+      "lengthSamples": 0,
+      "timeStretchMode": "Signalsmith",
+      "sourceBpmOrigin": "Inherited"
     },
     "araEnabled": false,
     "araBypassed": false,
@@ -64,28 +28,63 @@
       "mode": "eighth"
     }
   },
-  "mice": {
-    "id": "mice",
-    "trackId": "wsd",
-    "name": "Chicago sketch 10-Mini V3",
-    "startBeat": 16.685089405759353,
-    "lengthBeats": 138.66666666666666,
+  "rxyj": {
+    "id": "rxyj",
+    "trackId": "tdh",
+    "name": "MIDI - clip",
+    "startBeat": 8.0,
+    "lengthBeats": 8.0,
     "offsetBeats": 0.0,
     "source": {
-      "type": "Audio",
-      "path": "samples/Chicago sketch 10-Mini V3.wav",
-      "sampleRate": 48000.0,
-      "channels": 2,
-      "lengthSamples": 3072000,
-      "timeStretchMode": "Signalsmith",
-      "sourceBpm": 130.0,
-      "sourceBpmOrigin": "Inherited"
+      "type": "Midi",
+      "notes": [
+        {
+          "id": "nlqdhh",
+          "note": 53,
+          "velocity": 100,
+          "beat": 1.375,
+          "durationBeats": 0.125,
+          "channel": 0
+        },
+        {
+          "id": "nlqbpg",
+          "note": 51,
+          "velocity": 100,
+          "beat": 2.875,
+          "durationBeats": 0.125,
+          "channel": 0
+        },
+        {
+          "id": "nlqadr",
+          "note": 49,
+          "velocity": 100,
+          "beat": 3.5,
+          "durationBeats": 0.125,
+          "channel": 0
+        },
+        {
+          "id": "nlqadq",
+          "note": 49,
+          "velocity": 100,
+          "beat": 4.5,
+          "durationBeats": 0.125,
+          "channel": 0
+        },
+        {
+          "id": "nlqadp",
+          "note": 50,
+          "velocity": 100,
+          "beat": 5.25,
+          "durationBeats": 0.125,
+          "channel": 0
+        }
+      ]
     },
     "araEnabled": false,
     "araBypassed": false,
     "gain": 1.0,
-    "fadeInBeats": 0.008666666666666666,
-    "fadeOutBeats": 0.008666666666666666,
+    "fadeInBeats": 0.0,
+    "fadeOutBeats": 0.0,
     "fadeCurve": 1.0,
     "loopEnabled": false,
     "reversed": false,
