@@ -24,6 +24,14 @@
           "beat": 2.875,
           "durationBeats": 0.125,
           "channel": 0
+        },
+        {
+          "id": "yk8r4y",
+          "note": 49,
+          "velocity": 100,
+          "beat": 3.5,
+          "durationBeats": 0.125,
+          "channel": 0
         }
       ]
     },
