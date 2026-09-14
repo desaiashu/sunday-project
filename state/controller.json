@@ -19,9 +19,30 @@
       "inverted": false,
       "softTakeover": false,
       "name": ""
+    },
+    "map_2": {
+      "id": "map_2",
+      "cc": {
+        "channel": 14,
+        "cc": 18,
+        "kind": "cc"
+      },
+      "device": "xone-k2",
+      "target": {
+        "kind": "trackParam",
+        "trackId": "wsd",
+        "param": "volume"
+      },
+      "min": 0.0,
+      "max": 1.9952623149688795,
+      "scaling": "linear",
+      "enabled": true,
+      "inverted": false,
+      "softTakeover": false,
+      "name": ""
     }
   },
-  "nextId": 1,
+  "nextId": 2,
   "macros": {},
   "devices": {
     "iac-driver-bus-1": {
