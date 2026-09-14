@@ -32,6 +32,22 @@
           "beat": 3.5,
           "durationBeats": 0.125,
           "channel": 0
+        },
+        {
+          "id": "jzzvij",
+          "note": 49,
+          "velocity": 100,
+          "beat": 4.5,
+          "durationBeats": 0.125,
+          "channel": 0
+        },
+        {
+          "id": "tv7r12",
+          "note": 50,
+          "velocity": 100,
+          "beat": 5.25,
+          "durationBeats": 0.125,
+          "channel": 0
         }
       ]
     },
