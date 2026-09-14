@@ -1,4 +1,21 @@
 {
-  "nodes": {},
+  "nodes": {
+    "tegj": {
+      "nodeId": "tegj",
+      "typeId": "transport",
+      "position": [
+        742.4456787109375,
+        414.884521484375
+      ],
+      "refId": null,
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
+    }
+  },
   "connections": []
 }
