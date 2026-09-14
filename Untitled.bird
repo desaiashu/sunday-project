@@ -33,3 +33,5 @@ master
   strip tivraMastering
 
 sec main
+  trk 2 MIDI |tdh
+    c 2:0 2:0 |rxyj

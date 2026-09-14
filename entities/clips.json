@@ -1,1 +1,26 @@
-{}
+{
+  "rxyj": {
+    "id": "rxyj",
+    "trackId": "tdh",
+    "name": "MIDI",
+    "startBeat": 8.0,
+    "lengthBeats": 8.0,
+    "offsetBeats": 0.0,
+    "source": {
+      "type": "Midi",
+      "notes": []
+    },
+    "araEnabled": false,
+    "araBypassed": false,
+    "gain": 1.0,
+    "fadeInBeats": 0.0,
+    "fadeOutBeats": 0.0,
+    "fadeCurve": 1.0,
+    "loopEnabled": false,
+    "reversed": false,
+    "swing": {
+      "amount": 0.0,
+      "mode": "eighth"
+    }
+  }
+}
