@@ -7,5 +7,9 @@
     "sha256": "510e9f7237a25315142689e0e29b2c7232d65f35699350658252d21011a0a407",
     "bytes": 744609
   },
+  "samples/recordall_xwuj_rec1_1789369824893_ulbj.wav": {
+    "sha256": "5579efff2e911eda33d3e0f1ac61f743ed337774841084d1294a0bcddcd7425a",
+    "bytes": 632900
+  },
   "schemaVersion": 2
 }
