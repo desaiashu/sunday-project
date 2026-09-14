@@ -72,7 +72,9 @@
         619.03125
       ],
       "refId": "tivraDistortion",
-      "params": {},
+      "params": {
+        "hardness": 51.0
+      },
       "chainLoop": false,
       "chainMuted": false,
       "chainSolo": false,
