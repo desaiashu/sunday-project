@@ -69,6 +69,16 @@
       {
         "beat": 103.64081890640098,
         "value": 0.24612770080566404,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 122.59893590085434,
+        "value": 0.471127700805664,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 141.5570528953077,
+        "value": 0.346127700805664,
         "interpolation": "linear"
       }
     ],
