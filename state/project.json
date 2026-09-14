@@ -22,13 +22,15 @@
       "version": 1,
       "files": {
         "dsp": "// Custom FX — DSP (Rune). describe() declares the effect and its params;\n// the same ids are used here (param / p.<id>) and in the UI (ui.knob('<id>')).\n\npub fn describe() {\n  Fx::new(\"Warm Drive\")\n    .knob(\"drive\", 0.0, 24.0, 6.0).unit(\"dB\")\n    .knob(\"tone\", 200.0, 8000.0, 2000.0).unit(\"Hz\")\n}\n\npub fn new(sr, max_frames) {\n  let shaper = Shaper::new();\n  shaper.set_curve(\"tanh\");\n  #{ shaper: shaper, lp: [Biquad::new(sr), Biquad::new(sr)], buf: Sig::new(max_frames), sr: sr }\n}\n\npub fn param(state, id, value) {\n  if id == \"drive\" { state.shaper.set_drive(db_to_gain(value)); }\n  if id == \"tone\" { for lp in state.lp { lp.set(\"lowpass\", value, 0.7, 0.0); } }\n}\n\npub fn process(state, io, p) {\n  let ch = 0;\n  while ch < io.outputs() && ch < 2 {\n    io.read(ch, state.buf);\n    state.shaper.process(state.buf);\n    state.lp[ch].process(state.buf);\n    state.buf.gain(1.0 / (1.0 + p.drive / 24.0));\n    io.write(ch, state.buf);\n    ch += 1;\n  }\n}\n",
+        "dspRs": "// Custom FX — DSP (Rust, compiled to wasm32). Same descriptor as the Rune\n// starter, so ui.knob('drive') / ui.knob('tone') work unchanged; param()\n// receives the id like the Rune file does.\nuse songbird_vibefx_sdk::kernels::{db_to_gain, Biquad, Shaper};\nuse songbird_vibefx_sdk::ProgramDescriptor;\n\nsongbird_vibefx_sdk::fx! {\n    describe: ProgramDescriptor::new(\"Warm Drive\")\n        .knob(\"drive\", 0.0, 24.0, 6.0).unit(\"dB\")\n        .knob(\"tone\", 200.0, 8000.0, 2000.0).unit(\"Hz\"),\n\n    state: {\n        shaper: Shaper = { let mut s = Shaper::new(); s.set_curve(\"tanh\"); s.set_drive(db_to_gain(6.0)); s },\n        lp: [Biquad; 2] = [Biquad::new(48000.0), Biquad::new(48000.0)],\n        tone: f64 = 2000.0,\n        makeup: f32 = 1.0 / 1.25,\n    },\n\n    prepare(state, sr, _max_frames) {\n        for lp in &mut state.lp {\n            lp.set_sample_rate(sr);\n            lp.set(\"lowpass\", state.tone, 0.7, 0.0);\n        }\n    }\n\n    reset(state) {\n        for lp in &mut state.lp { lp.reset(); }\n    }\n\n    param(state, id, value) {\n        match id {\n            \"drive\" => {\n                state.shaper.set_drive(db_to_gain(value));\n                state.makeup = 1.0 / (1.0 + value / 24.0);\n            }\n            \"tone\" => {\n                state.tone = value as f64;\n                for lp in &mut state.lp { lp.set(\"lowpass\", state.tone, 0.7, 0.0); }\n            }\n            _ => {}\n        }\n    }\n\n    process(state, io) {\n        let mut ch = 0;\n        while ch < io.num_outputs().min(2) {\n            let (input, out) = io.io_pair(ch);\n            for (o, i) in out.iter_mut().zip(input) { *o = *i; }\n            state.shaper.process(out);\n            state.lp[ch].process(out);\n            for o in out.iter_mut() { *o *= state.makeup; }\n            ch += 1;\n        }\n    }\n}\n",
         "ui": "// Custom FX — UI. ui.knob(id) binds a knob to the param declared in DSP;\n// ui.auto() renders every declared param. Top-level code is the render body\n// (re-run on every update) with root, h, ui, logic, values in scope.\n\nroot.append(\n  h('div', { class: 'row' }, ui.knob('drive'), ui.knob('tone')),\n);\n"
       },
       "meta": {
-        "chatMessages": []
+        "chatMessages": [],
+        "logicMode": "compiled"
       },
       "createdAt": 1789368903751,
-      "modifiedAt": 1789368904353
+      "modifiedAt": 1789368937332
     }
   },
   "videoFilePath": null
