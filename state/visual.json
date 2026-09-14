@@ -6,7 +6,7 @@
       "kind": {
         "type": "VisualizerSource",
         "panelId": "main",
-        "kind": "flowshield",
+        "kind": "lightcube",
         "inputSource": "{\"kind\":\"main\"}"
       }
     }
