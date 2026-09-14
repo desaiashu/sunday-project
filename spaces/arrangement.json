@@ -95,7 +95,7 @@
   "keyMarkers": [],
   "timeSigMarkers": [],
   "spatialMode": true,
-  "rendererOutputMode": "binaural",
+  "rendererOutputMode": "quad",
   "speakerMaps": {},
   "speakerLevels": {},
   "speakerMutes": {},
