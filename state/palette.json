@@ -63,6 +63,22 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "lqcn": {
+      "nodeId": "lqcn",
+      "typeId": "plugin",
+      "position": [
+        435.57879638671875,
+        619.03125
+      ],
+      "refId": "tivraDistortion",
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
     }
   },
   "connections": []
