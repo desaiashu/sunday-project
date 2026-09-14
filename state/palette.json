@@ -122,7 +122,9 @@
         619.03125
       ],
       "refId": "tivraReverb",
-      "params": {},
+      "params": {
+        "width": 100.0
+      },
       "chainLoop": false,
       "chainMuted": false,
       "chainSolo": false,
