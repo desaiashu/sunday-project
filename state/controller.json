@@ -2,6 +2,16 @@
   "mappings": {},
   "nextId": 0,
   "macros": {},
-  "devices": {},
+  "devices": {
+    "iac-driver-bus-1": {
+      "id": "iac-driver-bus-1",
+      "name": "IAC Driver Bus 1",
+      "port": "In 1",
+      "layoutId": null,
+      "channel": null,
+      "detectedChannel": null,
+      "manual": false
+    }
+  },
   "recordAutomation": false
 }
