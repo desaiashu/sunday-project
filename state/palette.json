@@ -141,6 +141,42 @@
       "fromPort": 1,
       "toNode": "lqcn",
       "toPort": 1
+    },
+    {
+      "fromNode": "lqcn",
+      "fromPort": 0,
+      "toNode": "wkyd",
+      "toPort": 0
+    },
+    {
+      "fromNode": "lqcn",
+      "fromPort": 1,
+      "toNode": "wkyd",
+      "toPort": 1
+    },
+    {
+      "fromNode": "wkyd",
+      "fromPort": 0,
+      "toNode": "mvmg",
+      "toPort": 0
+    },
+    {
+      "fromNode": "wkyd",
+      "fromPort": 1,
+      "toNode": "mvmg",
+      "toPort": 1
+    },
+    {
+      "fromNode": "mvmg",
+      "fromPort": 0,
+      "toNode": "ydgn",
+      "toPort": 0
+    },
+    {
+      "fromNode": "mvmg",
+      "fromPort": 1,
+      "toNode": "ydgn",
+      "toPort": 1
     }
   ]
 }
