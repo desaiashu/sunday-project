@@ -129,5 +129,18 @@
       "macroParams": []
     }
   },
-  "connections": []
+  "connections": [
+    {
+      "fromNode": "kzsp",
+      "fromPort": 0,
+      "toNode": "lqcn",
+      "toPort": 0
+    },
+    {
+      "fromNode": "kzsp",
+      "fromPort": 1,
+      "toNode": "lqcn",
+      "toPort": 1
+    }
+  ]
 }
