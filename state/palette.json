@@ -111,6 +111,22 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "ydgn": {
+      "nodeId": "ydgn",
+      "typeId": "plugin",
+      "position": [
+        1318.328857421875,
+        619.03125
+      ],
+      "refId": "tivraReverb",
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
     }
   },
   "connections": []
