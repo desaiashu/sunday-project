@@ -1,5 +1,151 @@
 {
-  "lanes": [],
-  "concepts": [],
+  "lanes": [
+    {
+      "laneId": "bass",
+      "name": "Bass",
+      "kind": "midi",
+      "paletteSlot": 0,
+      "trackId": null
+    },
+    {
+      "laneId": "kick",
+      "name": "Kick",
+      "kind": "audio",
+      "paletteSlot": 1,
+      "trackId": null
+    },
+    {
+      "laneId": "melody",
+      "name": "Melody",
+      "kind": "midi",
+      "paletteSlot": 2,
+      "trackId": null
+    },
+    {
+      "laneId": "harmony",
+      "name": "Harmony",
+      "kind": "midi",
+      "paletteSlot": 3,
+      "trackId": null
+    },
+    {
+      "laneId": "drums-a",
+      "name": "Drums",
+      "kind": "audio",
+      "paletteSlot": 4,
+      "trackId": null
+    },
+    {
+      "laneId": "drums-b",
+      "name": "Drums",
+      "kind": "audio",
+      "paletteSlot": 5,
+      "trackId": null
+    },
+    {
+      "laneId": "hidrums-a",
+      "name": "HiDrums",
+      "kind": "audio",
+      "paletteSlot": 6,
+      "trackId": null
+    },
+    {
+      "laneId": "hidrums-b",
+      "name": "HiDrums",
+      "kind": "audio",
+      "paletteSlot": 7,
+      "trackId": null
+    },
+    {
+      "laneId": "counterpart",
+      "name": "Counterpart",
+      "kind": "midi",
+      "paletteSlot": 8,
+      "trackId": null
+    },
+    {
+      "laneId": "pad",
+      "name": "Pad",
+      "kind": "midi",
+      "paletteSlot": 9,
+      "trackId": null
+    },
+    {
+      "laneId": "tension",
+      "name": "Tension",
+      "kind": "midi",
+      "paletteSlot": 10,
+      "trackId": null
+    },
+    {
+      "laneId": "emotion",
+      "name": "Emotion",
+      "kind": "midi",
+      "paletteSlot": 11,
+      "trackId": null
+    },
+    {
+      "laneId": "improv-a",
+      "name": "Improv A",
+      "kind": "midi",
+      "paletteSlot": 12,
+      "trackId": null
+    },
+    {
+      "laneId": "improv-b",
+      "name": "Improv B",
+      "kind": "midi",
+      "paletteSlot": 13,
+      "trackId": null
+    }
+  ],
+  "concepts": [
+    {
+      "conceptId": "1",
+      "name": "Concept 1",
+      "parts": [
+        {
+          "partId": "1A",
+          "label": "A"
+        },
+        {
+          "partId": "1B",
+          "label": "B"
+        },
+        {
+          "partId": "1C",
+          "label": "C"
+        }
+      ]
+    },
+    {
+      "conceptId": "2",
+      "name": "Concept 2",
+      "parts": [
+        {
+          "partId": "2A",
+          "label": "A"
+        },
+        {
+          "partId": "2B",
+          "label": "B"
+        },
+        {
+          "partId": "2C",
+          "label": "C"
+        }
+      ]
+    },
+    {
+      "conceptId": "3",
+      "name": "Concept 3",
+      "parts": [
+        {
+          "partId": "3A",
+          "label": "A"
+        }
+      ]
+    }
+  ],
   "slots": {}
 }

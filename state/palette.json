@@ -131,6 +131,38 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "xwuj": {
+      "nodeId": "xwuj",
+      "typeId": "record_all",
+      "position": [
+        -82.02751922607422,
+        1535.53125
+      ],
+      "refId": null,
+      "params": {},
+      "chainLoop": false,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": [],
+      "recordAll": {
+        "device": "MacBook Pro Microphone",
+        "rows": [
+          {
+            "id": "elly",
+            "kind": "audio",
+            "device": "MacBook Pro Microphone",
+            "channel": 0,
+            "name": "1",
+            "armed": true,
+            "muted": false
+          }
+        ],
+        "midi": false,
+        "playTake": null
+      }
     }
   },
   "connections": [
