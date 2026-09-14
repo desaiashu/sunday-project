@@ -73,7 +73,7 @@
       ],
       "refId": "tivraDistortion",
       "params": {
-        "hardness": 51.0
+        "hardness": 63.0
       },
       "chainLoop": false,
       "chainMuted": false,
