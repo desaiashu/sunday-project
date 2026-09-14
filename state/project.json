@@ -13,6 +13,26 @@
   },
   "trackAppearance": {},
   "embeddedTemplates": {
+    "mu0wgd6ok5wrv": {
+      "formatVersion": 1,
+      "id": "mu0wgd6ok5wrv",
+      "kind": "midiEditor",
+      "name": "Custom Editor 1",
+      "description": "",
+      "version": 1,
+      "files": {
+        "logic": "// Custom MIDI Editor — logic (Rune). Editor::new declares params and\n// triggers; the UI reaches them by id (ui.knob('velocity'), logic.trigger('I')).\n\npub fn describe() {\n  Editor::new(\"Chord Pad\")\n    .knob(\"velocity\", 1.0, 127.0, 96.0)\n    .trigger(\"I\").trigger(\"IV\").trigger(\"V\").trigger(\"vi\")\n}\n\npub fn new() { #{ velocity: 96.0 } }\n\npub fn param(state, id, value) {\n  if id == \"velocity\" { state.velocity = value; }\n}\n\n// Triggers return the notes to write into the clip (pitch, velocity, beats).\npub fn trigger(state, id, args) {\n  let root = match id { \"I\" => 60, \"IV\" => 65, \"V\" => 67, \"vi\" => 69, _ => 60 };\n  let third = if id == \"vi\" { 3 } else { 4 };\n  let beat = args.beat;\n  [\n    MidiEvent::note(root, state.velocity, 1.0).at(beat),\n    MidiEvent::note(root + third, state.velocity, 1.0).at(beat),\n    MidiEvent::note(root + 7, state.velocity, 1.0).at(beat),\n  ]\n}\n",
+        "prompt": "",
+        "script": "// Custom MIDI Editor — UI. ui.button(id) fires a logic trigger,\n// ui.knob(id) binds a logic param; root / h for anything custom.\n// Top-level code is the render body: it re-runs on every MIDI update.\n\n// notes beats are absolute; logic MidiEvents are relative to the section.\nconst nextBeat = notes.length\n  ? Math.max(...notes.map((n) => n.beat + n.duration)) - sectionStartBeat\n  : 0;\nconst pad = (id) => ui.button(id, { args: { beat: nextBeat } });\nroot.append(\n  h('div', { class: 'row' }, pad('I'), pad('IV'), pad('V'), pad('vi'), ui.knob('velocity')),\n  h('div', { class: 'hint' }, notes.length + ' notes · next chord at beat ' + nextBeat),\n);\n",
+        "ui": "// Custom MIDI Editor — UI. ui.button(id) fires a logic trigger,\n// ui.knob(id) binds a logic param; root / h for anything custom.\n// Top-level code is the render body: it re-runs on every MIDI update.\n\n// notes beats are absolute; logic MidiEvents are relative to the section.\nconst nextBeat = notes.length\n  ? Math.max(...notes.map((n) => n.beat + n.duration)) - sectionStartBeat\n  : 0;\nconst pad = (id) => ui.button(id, { args: { beat: nextBeat } });\nroot.append(\n  h('div', { class: 'row' }, pad('I'), pad('IV'), pad('V'), pad('vi'), ui.knob('velocity')),\n  h('div', { class: 'hint' }, notes.length + ' notes · next chord at beat ' + nextBeat),\n);\n"
+      },
+      "meta": {
+        "icon": "notes",
+        "chatMessages": []
+      },
+      "createdAt": 1789369591488,
+      "modifiedAt": 1789369592090
+    },
     "mu0w1mivrzopl": {
       "formatVersion": 1,
       "id": "mu0w1mivrzopl",
