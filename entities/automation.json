@@ -1,1 +1,18 @@
-{}
+{
+  "ydv": {
+    "id": "ydv",
+    "trackId": "wsd",
+    "pluginId": "nnno",
+    "sectionId": "opa",
+    "paramName": "volume",
+    "points": [
+      {
+        "beat": 0.0,
+        "value": 0.9976311326026917,
+        "interpolation": "linear"
+      }
+    ],
+    "enabled": true,
+    "defaultValue": 0.9976311326026917
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "notes": [
+    {
+      "id": "note_1789369058700_1",
+      "view": "arrangement",
+      "text": "",
+      "archived": false,
+      "createdAt": 1789369058700,
+      "x": 42.283064082860406,
+      "y": 0.4847253084444674
+    },
+    {
+      "id": "note_1789369059311_2",
+      "view": "arrangement",
+      "text": "",
+      "archived": false,
+      "createdAt": 1789369059311,
+      "x": 49.10751210534596,
+      "y": 0.3078294970910065
+    },
+    {
+      "id": "note_1789369059966_3",
+      "view": "arrangement",
+      "text": "",
+      "archived": false,
+      "createdAt": 1789369059966,
+      "x": 35.76881069920423,
+      "y": 1.4621370281820418
+    },
+    {
+      "id": "note_1789369060517_4",
+      "view": "arrangement",
+      "text": "",
+      "archived": false,
+      "createdAt": 1789369060517,
+      "x": 40.93755956868714,
+      "y": 1.4621370281820418
+    },
+    {
+      "id": "note_1789369061197_5",
+      "view": "arrangement",
+      "text": "",
+      "archived": false,
+      "createdAt": 1789369061197,
+      "x": 24.01178661143813,
+      "y": 1.5434995480754878
+    }
+  ]
+}
