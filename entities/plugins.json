@@ -58,8 +58,7 @@
     "trackId": "tdh",
     "typeName": "tivraWavetable",
     "slot": "instrument",
-    "enabled": false,
-    "disabledBy": "user",
+    "enabled": true,
     "state": {
       "osc1Morph": 0.0,
       "osc1Octave": 0.0,
