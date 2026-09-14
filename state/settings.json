@@ -1,0 +1,35 @@
+{
+  "user": {
+    "middleCOctave": 4,
+    "copyImportedSamples": true,
+    "autoSaveIntervalMs": 30000,
+    "undoHistorySize": 100,
+    "linkEnabled": false,
+    "linkStartStopSync": true,
+    "linkCustomOffsetMs": 0.0,
+    "directMonitoring": false
+  },
+  "appearance": {
+    "theme": "system"
+  },
+  "ai": {
+    "aiComfort": 3,
+    "developmentStage": 2,
+    "pluginPreload": "project"
+  },
+  "workflow": {
+    "vibeMode": false,
+    "experienceLevel": 3,
+    "defaultChannelStrip": null,
+    "pluginMode": "canvas"
+  },
+  "playback": {
+    "previewVolume": 0.7
+  },
+  "audioDevices": {
+    "audioOutputDevice": "Default",
+    "audioInputDevice": "None",
+    "masterOutputPair": 0
+  },
+  "hasApiKey": false
+}

@@ -1,0 +1,28 @@
+{
+  "wsd": {
+    "gain": 1.0,
+    "pan": 0.0,
+    "muted": false,
+    "solo": false,
+    "spatial": {
+      "azimuth": 0.0,
+      "elevation": 0.0,
+      "distance": 1.0
+    },
+    "channelFormat": "stereo",
+    "monoSource": "sum"
+  },
+  "tdh": {
+    "gain": 1.0,
+    "pan": 0.0,
+    "muted": false,
+    "solo": false,
+    "spatial": {
+      "azimuth": 0.0,
+      "elevation": 0.0,
+      "distance": 1.0
+    },
+    "channelFormat": "stereo",
+    "monoSource": "sum"
+  }
+}

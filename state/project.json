@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "id": "assvlt",
+    "name": "Untitled",
+    "createdAt": "",
+    "modifiedAt": ""
+  },
+  "markers": {},
+  "regions": {},
+  "engineConfig": {
+    "sampleRate": 48000.0,
+    "bufferSize": 512
+  },
+  "trackAppearance": {},
+  "embeddedTemplates": {},
+  "videoFilePath": null
+}
