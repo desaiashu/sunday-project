@@ -8,7 +8,16 @@
     "offsetBeats": 0.0,
     "source": {
       "type": "Midi",
-      "notes": []
+      "notes": [
+        {
+          "id": "itvcgr",
+          "note": 53,
+          "velocity": 100,
+          "beat": 1.375,
+          "durationBeats": 0.125,
+          "channel": 0
+        }
+      ]
     },
     "araEnabled": false,
     "araBypassed": false,
