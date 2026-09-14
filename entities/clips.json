@@ -1548,5 +1548,34 @@
       "amount": 0.0,
       "mode": "eighth"
     }
+  },
+  "cioe": {
+    "id": "cioe",
+    "trackId": "pal",
+    "name": "1 1",
+    "startBeat": 0.0,
+    "lengthBeats": 7.141333333333333,
+    "offsetBeats": 0.0,
+    "source": {
+      "type": "Audio",
+      "path": "samples/recordall_xwuj_rec1_1789369824893_ulbj.wav",
+      "sampleRate": 48000.0,
+      "channels": 1,
+      "lengthSamples": 158208,
+      "timeStretchMode": "Signalsmith",
+      "sourceBpmOrigin": "Inherited"
+    },
+    "araEnabled": false,
+    "araBypassed": false,
+    "gain": 1.0,
+    "fadeInBeats": 0.0,
+    "fadeOutBeats": 0.0,
+    "fadeCurve": 1.0,
+    "loopEnabled": false,
+    "reversed": false,
+    "swing": {
+      "amount": 0.0,
+      "mode": "eighth"
+    }
   }
 }

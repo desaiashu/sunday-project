@@ -157,7 +157,8 @@
             "channel": 0,
             "name": "1",
             "armed": true,
-            "muted": false
+            "muted": false,
+            "clip": "cioe"
           }
         ],
         "midi": false,
