@@ -39,6 +39,21 @@
       {
         "beat": 45.3983563873587,
         "value": 0.721127700805664,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 50.8708025300875,
+        "value": 0.24612770080566404,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 62.988361846129855,
+        "value": 0.3211277008056641,
+        "interpolation": "exponential"
+      },
+      {
+        "beat": 71.9788090806129,
+        "value": 0.9211277008056641,
         "interpolation": "linear"
       }
     ],
