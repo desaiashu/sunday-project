@@ -5,6 +5,6 @@
     "endBeat": 16.0
   },
   "metronome": {
-    "enabled": true
+    "enabled": false
   }
 }
