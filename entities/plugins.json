@@ -331,12 +331,12 @@
     "slot": 0,
     "enabled": true,
     "state": {
-      "predelayMs": 20.0,
-      "lowRt60": 4.0,
-      "midRt60": 2.799999952316284,
+      "predelayMs": 0.35,
+      "lowRt60": 0.8,
+      "midRt60": 0.75,
       "crossover": 200.0,
       "levelDb": 6.0,
-      "dryWet": 25.0
+      "dryWet": 0.65
     },
     "sidechainSensitivity": 0.6000000238418579
   },
