@@ -47,6 +47,22 @@
       "triggered": false,
       "bypassed": false,
       "macroParams": []
+    },
+    "kzsp": {
+      "nodeId": "kzsp",
+      "typeId": "audio_clip",
+      "position": [
+        173.3288116455078,
+        619.03125
+      ],
+      "refId": "mice",
+      "params": {},
+      "chainLoop": true,
+      "chainMuted": false,
+      "chainSolo": false,
+      "triggered": false,
+      "bypassed": false,
+      "macroParams": []
     }
   },
   "connections": []
