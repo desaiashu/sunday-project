@@ -3,5 +3,9 @@
     "sha256": "45e12127a81c3cf064f5b7f5612b4470ba468e3e2121f1c0b9ba339178394b40",
     "bytes": 12288080
   },
+  "samples/generated/lyria3-generate-a-trumpet-130-bpm-1789369554889-srppcmoe.mp3": {
+    "sha256": "510e9f7237a25315142689e0e29b2c7232d65f35699350658252d21011a0a407",
+    "bytes": 744609
+  },
   "schemaVersion": 2
 }
