@@ -12,6 +12,24 @@
     "bufferSize": 512
   },
   "trackAppearance": {},
-  "embeddedTemplates": {},
+  "embeddedTemplates": {
+    "mu0w1mivrzopl": {
+      "formatVersion": 1,
+      "id": "mu0w1mivrzopl",
+      "kind": "vibeFx",
+      "name": "Custom FX",
+      "description": "",
+      "version": 1,
+      "files": {
+        "dsp": "// Custom FX — DSP (Rune). describe() declares the effect and its params;\n// the same ids are used here (param / p.<id>) and in the UI (ui.knob('<id>')).\n\npub fn describe() {\n  Fx::new(\"Warm Drive\")\n    .knob(\"drive\", 0.0, 24.0, 6.0).unit(\"dB\")\n    .knob(\"tone\", 200.0, 8000.0, 2000.0).unit(\"Hz\")\n}\n\npub fn new(sr, max_frames) {\n  let shaper = Shaper::new();\n  shaper.set_curve(\"tanh\");\n  #{ shaper: shaper, lp: [Biquad::new(sr), Biquad::new(sr)], buf: Sig::new(max_frames), sr: sr }\n}\n\npub fn param(state, id, value) {\n  if id == \"drive\" { state.shaper.set_drive(db_to_gain(value)); }\n  if id == \"tone\" { for lp in state.lp { lp.set(\"lowpass\", value, 0.7, 0.0); } }\n}\n\npub fn process(state, io, p) {\n  let ch = 0;\n  while ch < io.outputs() && ch < 2 {\n    io.read(ch, state.buf);\n    state.shaper.process(state.buf);\n    state.lp[ch].process(state.buf);\n    state.buf.gain(1.0 / (1.0 + p.drive / 24.0));\n    io.write(ch, state.buf);\n    ch += 1;\n  }\n}\n",
+        "ui": "// Custom FX — UI. ui.knob(id) binds a knob to the param declared in DSP;\n// ui.auto() renders every declared param. Top-level code is the render body\n// (re-run on every update) with root, h, ui, logic, values in scope.\n\nroot.append(\n  h('div', { class: 'row' }, ui.knob('drive'), ui.knob('tone')),\n);\n"
+      },
+      "meta": {
+        "chatMessages": []
+      },
+      "createdAt": 1789368903751,
+      "modifiedAt": 1789368904353
+    }
+  },
   "videoFilePath": null
 }
