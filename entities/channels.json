@@ -18,9 +18,9 @@
     "muted": false,
     "solo": false,
     "spatial": {
-      "azimuth": 116.82855886378844,
+      "azimuth": 59.035759045935265,
       "elevation": 0.0,
-      "distance": 0.9098434497098191
+      "distance": 0.08660452709554732
     },
     "channelFormat": "stereo",
     "monoSource": "sum"
