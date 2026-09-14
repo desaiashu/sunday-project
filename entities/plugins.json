@@ -534,5 +534,14 @@
       "limInputDb": 0.0
     },
     "sidechainSensitivity": 0.6000000238418579
+  },
+  "mukg": {
+    "id": "mukg",
+    "trackId": "tdh",
+    "typeName": "tivraVibeFX",
+    "slot": 0,
+    "enabled": true,
+    "state": null,
+    "sidechainSensitivity": 0.6000000238418579
   }
 }

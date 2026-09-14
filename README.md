@@ -8,7 +8,7 @@ A [Songbird](https://tivra.com) project.
 | Meter | 4/4 |
 | Tracks | 6 |
 | Clips | 2 |
-| Plugins | 12 |
+| Plugins | 13 |
 | Automation lanes | 0 |
 
 ## Tracks

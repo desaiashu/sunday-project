@@ -13,6 +13,7 @@ tracks
   2 MIDI |tdh
     type midi
     plugin tivraWavetable
+    fx tivraVibeFX
     strip tivraStrip
 
 returns
