@@ -11,6 +11,15 @@
       "channel": null,
       "detectedChannel": null,
       "manual": false
+    },
+    "xone-k2": {
+      "id": "xone-k2",
+      "name": "Xone K2",
+      "port": null,
+      "layoutId": "xone-k2",
+      "channel": null,
+      "detectedChannel": null,
+      "manual": true
     }
   },
   "recordAutomation": false
