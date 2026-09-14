@@ -46,3 +46,7 @@ sec main
       p _q _x _s s _q _x _s s _xx s _xxd _s s _xx _s s _h _xx _s
         v 100
         n F3 D#3 C#3 C#3 D3
+    auto volume
+      . 16:166
+      _ 0.8257
+      ~ lin

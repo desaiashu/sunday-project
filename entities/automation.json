@@ -84,5 +84,21 @@
     ],
     "enabled": true,
     "defaultValue": 0.9976311326026917
+  },
+  "jdu": {
+    "id": "jdu",
+    "trackId": "tdh",
+    "pluginId": "whsn",
+    "sectionId": "opa",
+    "paramName": "volume",
+    "points": [
+      {
+        "beat": 65.72458491749425,
+        "value": 0.8256900180927375,
+        "interpolation": "linear"
+      }
+    ],
+    "enabled": true,
+    "defaultValue": 0.0
   }
 }
