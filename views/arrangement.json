@@ -4,8 +4,21 @@
   "scale": null,
   "timeSigNumerator": 4,
   "timeSigDenominator": 4,
-  "tracks": {},
-  "trackOrder": [],
+  "tracks": {
+    "vzf": {
+      "id": "vzf",
+      "name": "Audio",
+      "trackType": "audio",
+      "auditionLane": null,
+      "takeLaneCount": 0,
+      "audioFlipped": false,
+      "dubState": "empty",
+      "audioTakeLaneCount": 0
+    }
+  },
+  "trackOrder": [
+    "vzf"
+  ],
   "sections": {},
   "tempoMarkers": [],
   "keyMarkers": [],
