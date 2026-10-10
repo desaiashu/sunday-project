@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "id": "assvlt",
-    "name": "Untitled",
+    "id": "",
+    "name": "",
     "createdAt": "",
     "modifiedAt": ""
   },
@@ -12,6 +12,7 @@
     "bufferSize": 512
   },
   "trackAppearance": {},
-  "embeddedTemplates": {},
+  "customEditors": {},
+  "vibeFxEditors": {},
   "videoFilePath": null
 }

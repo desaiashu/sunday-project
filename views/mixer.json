@@ -1,0 +1,11 @@
+{
+  "master": {
+    "id": "mxx",
+    "gain": 1.0,
+    "muted": false,
+    "mono": false
+  },
+  "clipMix": {},
+  "sends": [],
+  "returns": {}
+}
