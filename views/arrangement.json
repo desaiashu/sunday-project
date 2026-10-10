@@ -14,10 +14,21 @@
       "audioFlipped": false,
       "dubState": "empty",
       "audioTakeLaneCount": 0
+    },
+    "qur": {
+      "id": "qur",
+      "name": "MIDI",
+      "trackType": "midi",
+      "auditionLane": null,
+      "takeLaneCount": 0,
+      "audioFlipped": false,
+      "dubState": "empty",
+      "audioTakeLaneCount": 0
     }
   },
   "trackOrder": [
-    "vzf"
+    "vzf",
+    "qur"
   ],
   "sections": {},
   "tempoMarkers": [],
